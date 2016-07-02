@@ -253,7 +253,7 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (setq python-shell-interpreter "python3.5http://martztrailways.com/departures-from-new-york/")
+  (setq python-shell-interpreter "python3.5")
   (add-hook 'inferior-python-mode-hook (lambda ()
                                          (setq indent-tabs-mode t)))
   )
